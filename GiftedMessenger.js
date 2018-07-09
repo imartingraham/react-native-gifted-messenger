@@ -13,7 +13,7 @@ var {
   Platform,
   PixelRatio
 } = React;
-
+var PropTypes = require('prop-types');
 var moment = require('moment');
 var extend = require('extend');
 
@@ -52,28 +52,28 @@ var GiftedMessenger = React.createClass({
   },
   
   propTypes: {
-    displayNames: React.PropTypes.bool,
-    placeholder: React.PropTypes.string,
-    styles: React.PropTypes.object,
-    autoFocus: React.PropTypes.bool,
-    onErrorButtonPress: React.PropTypes.func,
-    loadEarlierMessagesButton: React.PropTypes.bool,
-    loadEarlierMessagesButtonText: React.PropTypes.string,      
-    onLoadEarlierMessages: React.PropTypes.func,
-    parseText: React.PropTypes.bool,
-    handleUrlPress: React.PropTypes.func,
-    handlePhonePress: React.PropTypes.func,
-    handleEmailPress: React.PropTypes.func,
-    initialMessages: React.PropTypes.array,
-    messages: React.PropTypes.array,
-    handleSend: React.PropTypes.func,
-    maxHeight: React.PropTypes.number,
-    senderName: React.PropTypes.string,
-    senderImage: React.PropTypes.object,
-    sendButtonText: React.PropTypes.string,
-    onImagePress: React.PropTypes.func,
-    inverted: React.PropTypes.bool,
-    hideTextInput: React.PropTypes.bool,
+    displayNames: PropTypes.bool,
+    placeholder: PropTypes.string,
+    styles: PropTypes.object,
+    autoFocus: PropTypes.bool,
+    onErrorButtonPress: PropTypes.func,
+    loadEarlierMessagesButton: PropTypes.bool,
+    loadEarlierMessagesButtonText: PropTypes.string,      
+    onLoadEarlierMessages: PropTypes.func,
+    parseText: PropTypes.bool,
+    handleUrlPress: PropTypes.func,
+    handlePhonePress: PropTypes.func,
+    handleEmailPress: PropTypes.func,
+    initialMessages: PropTypes.array,
+    messages: PropTypes.array,
+    handleSend: PropTypes.func,
+    maxHeight: PropTypes.number,
+    senderName: PropTypes.string,
+    senderImage: PropTypes.object,
+    sendButtonText: PropTypes.string,
+    onImagePress: PropTypes.func,
+    inverted: PropTypes.bool,
+    hideTextInput: PropTypes.bool,
   },
 
   getInitialState: function() {
