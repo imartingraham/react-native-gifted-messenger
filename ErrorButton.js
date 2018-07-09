@@ -1,7 +1,7 @@
-import React from '../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
+import React from 'react';
 import { View, Text, TouchableHighlight, StyleSheet } from 'react-native';
 import GiftedSpinner from 'react-native-gifted-spinner';
-import PropTypes from '../../../../Library/Caches/typescript/2.9/node_modules/@types/prop-types'
+import PropTypes from 'prop-types'
 const styles = StyleSheet.create({
   errorButtonContainer: {
     marginLeft: 8,

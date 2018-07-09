@@ -1,8 +1,8 @@
-import React from '../../../../Library/Caches/typescript/2.9/node_modules/@types/react';
+import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
 import ParsedText from 'react-native-parsed-text';
-import PropTypes from '../../../../Library/Caches/typescript/2.9/node_modules/@types/prop-types'
+import PropTypes from 'prop-types'
 const styles = StyleSheet.create({
   bubble: {
     borderRadius: 15,

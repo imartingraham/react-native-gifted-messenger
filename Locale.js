@@ -1,4 +1,4 @@
-import moment from '../../../../Library/Caches/typescript/2.9/node_modules/moment';
+import moment from 'moment';
 
 function setLocale(locale) {
   switch (locale) {
